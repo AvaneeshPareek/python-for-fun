@@ -38,7 +38,7 @@ def send_email():
     server.ehlo()
     server.starttls()
     server.ehlo()
-    server.login('pareekavi10@gmail.com','xdjhawlhsetxeaobainbadr')
+    server.login('sender_example@gmail.com','xdjhawlhsetxeaobainbadr')
     subject = 'Price fell down! Time to buy...'
     body = 'Check out the flipkart link https://www.flipkart.com/bkge-rectangular-sunglasses/p/itm8c3cef5cfb5a0?pid=SGLFYTWXXFXBFBVV&lid=LSTSGLFYTWXXFXBFBVVHJRFB7&marketplace=FLIPKART&fm=productRecommendation%2FattachForSwatchProducts&iid=R%3Aas%3Bp%3AWATFN6WFBSBYHTCX%3Bl%3ALSTWATFN6WFBSBYHTCXHUNGJW%3Bpt%3App%3Buid%3A0e944ade-9706-11ec-9dd3-91078d99a205%3B.SGLFYTWXXFXBFBVV&ppt=pp&ppn=pp&ssid=bwkhz3xyh9gqg9vk1645881271487&otracker=pp_reco_Frequently%2BBought%2BTogether_1_Frequently%2BBought%2BTogether_SGLFYTWXXFXBFBVV_productRecommendation%2FattachForSwatchProducts&otracker1=pp_reco_PINNED_productRecommendation%2FattachForSwatchProducts_Frequently%2BBought%2BTogether_NA_productCard_cc_1_NA_view-all&cid=SGLFYTWXXFXBFBVV'
     msg = f"Subject: {subject}\n\n{body}"
