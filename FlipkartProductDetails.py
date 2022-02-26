@@ -16,3 +16,6 @@ price = soup.find("div",{"class":"_30jeq3 _16Jk6d"}).get_text()
 
 rating = soup.find("div",{"class":"_3LWZlK _3uSWvT"}).get_text()
 
+print('Product Title: '+title)
+print('Product Price: '+price)
+print('Product Rating: '+rating)
